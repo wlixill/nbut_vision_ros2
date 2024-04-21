@@ -33,8 +33,8 @@ class AcquisitionNode : public rclcpp::Node {
         using_video0_ = declare_parameter("using_video0", false);
         bool use_sensor_data_qos =
             declare_parameter("use_sensor_data_qos", false);
-        exposure_time_ = declare_parameter("exposure_time", 4500);
-        gain_ = declare_parameter("gain", 8.0);
+        exposure_time_ = declare_parameter("exposure_time", 6000);
+        gain_ = declare_parameter("gain", 12.0);
 
         // camera init and open
         if (!using_video0_) {
