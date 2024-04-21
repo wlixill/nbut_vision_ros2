@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/wlixill/rm_version4_ws/install/daheng_camera/include/**",
+        "/home/wlixill/rm_version4_ws/install/armor_processor/include/**",
+        "/home/wlixill/rm_version4_ws/install/armor_detector/include/**",
+        "/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/**",
+        "/home/wlixill/rm_tools/install/daheng_camera/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/wlixill/rm_version4_ws/src/rm_auto_aim/armor_detector/include/**",
+        "/home/wlixill/rm_version4_ws/src/rm_auto_aim/armor_processor/include/**",
+        "/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/**",
+        "/home/wlixill/rm_version4_ws/src/rm_auto_aim/rm_serial_driver/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

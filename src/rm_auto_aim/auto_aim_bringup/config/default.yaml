@@ -1,0 +1,57 @@
+# this is node ,not package
+/daheng_camera:
+  ros__parameters:
+    camera_name: daheng1
+    camera_info_url: package://auto_aim_bringup/config/camera_info1.yaml
+    # using_video0: false
+    using_video0: true
+    use_sensor_data_qos: true
+    exposure_time: 1600
+    gain: 10.0
+
+/armor_detector:
+  ros__parameters:
+    debug: true
+    detect_color: 1
+    min_lightness: 120
+    classifier_threshold: 0.9
+    ignore_classes: ["Outpost", "2"]
+
+    light:
+      max_angle: 40.0
+      max_ratio: 0.4
+      min_ratio: 0.05
+
+    armor:
+      max_angle: 35.0
+      max_center_ratio: 1.6
+      min_center_ratio: 0.4
+      min_light_ratio: 0.6
+      max_large_center_distance: 5.0
+      min_large_center_distance: 3.2
+      max_small_center_distance: 3.2
+      min_small_center_distance: 0.8
+
+/armor_processor:
+  ros__parameters:
+    # target_frame: odom
+    target_frame: camera_optical_frame
+    kf:
+      #   xc    yc    zc    yaw   vxc   vyc   vzc   vyaw  r
+      q: [1e-2, 1e-2, 1e-2, 2e-2, 5e-2, 5e-2, 1e-4, 4e-2, 1e-3]
+      #   xa    ya    za    yaw
+      r: [1e-1, 1e-1, 1e-1, 2e-1]
+
+    tracker:
+      max_match_distance: 0.2
+      tracking_threshold: 5
+      lost_threshold: 25
+
+/rm_serial_driver:
+  ros__parameters:
+    device_name: /dev/ttyUSB0
+    # device_name: /dev/ttyUSB1
+    baud_rate: 115200
+    flow_control: none
+    parity: none
+    stop_bits: "1"
