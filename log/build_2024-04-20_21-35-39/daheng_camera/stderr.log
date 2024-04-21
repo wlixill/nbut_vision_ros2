@@ -1,0 +1,12 @@
+In file included from [01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/src/daheng_camera_node.cpp:14[m[K:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:[m[K In member function ‘[01m[Kbool GxCamera::read(cv::Mat*, float*)[m[K’:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:318:7:[m[K [01;31m[Kerror: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Werror=unused-variable]8;;[m[K]
+  318 |   int [01;31m[Kx[m[K[100];
+      |       [01;31m[K^[m[K
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:320:7:[m[K [01;31m[Kerror: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Werror=unused-variable]8;;[m[K]
+  320 |   int [01;31m[Ky[m[K[100];
+      |       [01;31m[K^[m[K
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/daheng_camera.dir/build.make:76：CMakeFiles/daheng_camera.dir/src/daheng_camera_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/daheng_camera.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

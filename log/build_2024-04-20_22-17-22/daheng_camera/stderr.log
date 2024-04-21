@@ -1,0 +1,17 @@
+In file included from [01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/src/daheng_camera_node.cpp:14[m[K:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:[m[K In member function ‘[01m[Kbool GxCamera::read(cv::Mat*, float*)[m[K’:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:320:30:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+  320 |   printf("%p\n",pFrameBuffer)
+      |                              [01;31m[K^[m[K
+      |                              [32m[K;[m[K
+  321 |   [32m[Kif[m[K (emStatus != GX_STATUS_SUCCESS && emStatus != GX_STATUS_TIMEOUT) {
+      |   [32m[K~~[m[K                          
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:325:30:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+  325 |   printf("%p\n",pFrameBuffer)
+      |                              [01;31m[K^[m[K
+      |                              [32m[K;[m[K
+  326 |   [32m[Kif[m[K (!pFrameBuffer)
+      |   [32m[K~~[m[K                          
+gmake[2]: *** [CMakeFiles/daheng_camera.dir/build.make:76：CMakeFiles/daheng_camera.dir/src/daheng_camera_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/daheng_camera.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

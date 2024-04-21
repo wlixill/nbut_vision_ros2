@@ -1,0 +1,388 @@
+[0.013s] Invoking command in '/home/wlixill/rm_version4_ws/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/wlixill/rm_version4_ws/src/rm_auto_aim/auto_aim_interfaces -DCMAKE_INSTALL_PREFIX=/home/wlixill/rm_version4_ws/install/auto_aim_interfaces
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 11.4.0
+[0.109s] -- Detecting C compiler ABI info
+[0.169s] -- Detecting C compiler ABI info - done
+[0.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.174s] -- Detecting C compile features
+[0.174s] -- Detecting C compile features - done
+[0.176s] -- Detecting CXX compiler ABI info
+[0.249s] -- Detecting CXX compiler ABI info - done
+[0.254s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.254s] -- Detecting CXX compile features
+[0.254s] -- Detecting CXX compile features - done
+[0.257s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.372s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.446s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.449s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.456s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.493s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.523s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.846s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.034s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.275s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.292s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.294s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.314s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.314s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.314s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.314s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.330s] -- Found PythonExtra: .so  
+[1.380s] -- Configuring done
+[1.414s] -- Generating done
+[1.417s] -- Build files have been written to: /home/wlixill/rm_version4_ws/build/auto_aim_interfaces
+[1.425s] Invoked command in '/home/wlixill/rm_version4_ws/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/wlixill/rm_version4_ws/src/rm_auto_aim/auto_aim_interfaces -DCMAKE_INSTALL_PREFIX=/home/wlixill/rm_version4_ws/install/auto_aim_interfaces
+[1.427s] Invoking command in '/home/wlixill/rm_version4_ws/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wlixill/rm_version4_ws/build/auto_aim_interfaces -- -j16 -l16
+[1.465s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.475s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.483s] [  2%] Built target ament_cmake_python_copy_auto_aim_interfaces
+[1.664s] running egg_info
+[1.664s] creating auto_aim_interfaces.egg-info
+[1.664s] writing auto_aim_interfaces.egg-info/PKG-INFO
+[1.664s] writing dependency_links to auto_aim_interfaces.egg-info/dependency_links.txt
+[1.665s] writing top-level names to auto_aim_interfaces.egg-info/top_level.txt
+[1.665s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[1.666s] reading manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[1.666s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[1.690s] [  2%] Built target ament_cmake_python_build_auto_aim_interfaces_egg
+[1.871s] [  2%] Built target auto_aim_interfaces__cpp
+[1.886s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.886s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.886s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.918s] [  7%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/target__functions.c.o[0m
+[1.919s] [  8%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armor__functions.c.o[0m
+[1.920s] [ 10%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_light__functions.c.o[0m
+[1.920s] [ 11%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armors__functions.c.o[0m
+[1.920s] [ 12%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armors__functions.c.o[0m
+[1.921s] [ 13%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_lights__functions.c.o[0m
+[1.921s] [ 15%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armor__functions.c.o[0m
+[1.978s] [ 16%] [32m[1mLinking C shared library libauto_aim_interfaces__rosidl_generator_c.so[0m
+[2.016s] [ 16%] Built target auto_aim_interfaces__rosidl_generator_c
+[2.026s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.026s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.026s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.193s] [ 21%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/target__type_support.cpp.o[0m
+[2.195s] [ 25%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armor__type_support.cpp.o[0m
+[2.195s] [ 26%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_light__type_support.cpp.o[0m
+[2.195s] [ 25%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o[0m
+[2.195s] [ 26%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armors__type_support.cpp.o[0m
+[2.196s] [ 27%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_armor__type_support.cpp.o[0m
+[2.196s] [ 29%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_armors__type_support.cpp.o[0m
+[2.332s] [ 30%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp.o[0m
+[2.344s] [ 31%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armors__type_support.cpp.o[0m
+[2.357s] [ 32%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/target__type_support.cpp.o[0m
+[2.371s] [ 34%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_light__type_support.cpp.o[0m
+[2.470s] [ 35%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_lights__type_support.cpp.o[0m
+[2.499s] [ 36%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armor__type_support.cpp.o[0m
+[2.514s] [ 37%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armors__type_support.cpp.o[0m
+[2.531s] [ 39%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/target__type_support.cpp.o[0m
+[2.533s] [ 40%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armor__type_support.cpp.o[0m
+[2.536s] [ 41%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_armor__type_support.cpp.o[0m
+[2.542s] [ 43%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armors__type_support.cpp.o[0m
+[2.544s] [ 44%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_armors__type_support.cpp.o[0m
+[2.545s] [ 45%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_light__type_support.cpp.o[0m
+[2.553s] [ 46%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_cpp.so[0m
+[2.626s] [ 48%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/target__type_support.cpp.o[0m
+[2.643s] [ 48%] Built target auto_aim_interfaces__rosidl_typesupport_cpp
+[2.672s] [ 49%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_light__type_support.cpp.o[0m
+[2.689s] [ 50%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o[0m
+[2.721s] [ 51%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_lights__type_support.cpp.o[0m
+[2.772s] [ 53%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_armor__type_support.cpp.o[0m
+[2.794s] [ 54%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armor__type_support.c.o[0m
+[2.810s] [ 55%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armors__type_support.c.o[0m
+[2.863s] [ 56%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armor__type_support_c.cpp.o[0m
+[2.883s] [ 58%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/target__type_support.c.o[0m
+[2.893s] [ 59%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_armors__type_support.cpp.o[0m
+[2.900s] [ 60%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armors__type_support_c.cpp.o[0m
+[2.925s] [ 62%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/target__type_support_c.cpp.o[0m
+[2.926s] [ 63%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_armor__type_support.cpp.o[0m
+[2.938s] [ 64%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_light__type_support.c.o[0m
+[2.951s] [ 65%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_armors__type_support.cpp.o[0m
+[2.956s] [ 68%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_lights__type_support.c.o[0m
+[2.956s] [ 68%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_c.so[0m
+[3.064s] [ 68%] Built target auto_aim_interfaces__rosidl_typesupport_c
+[3.075s] [ 73%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_armor__type_support_c.cpp.o[0m
+[3.075s] [ 73%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_armor__type_support.c.o[0m
+[3.075s] [ 73%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_lights__type_support_c.cpp.o[0m
+[3.076s] [ 73%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_light__type_support_c.cpp.o[0m
+[3.076s] [ 75%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_armors__type_support_c.cpp.o[0m
+[3.076s] [ 75%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_armors__type_support.c.o[0m
+[3.177s] [ 78%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.177s] [ 78%] [32m[1mLinking C shared library libauto_aim_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.233s] [ 78%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c
+[3.290s] [ 78%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.447s] [ 79%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.448s] [ 81%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.517s] [ 81%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c
+[3.521s] [ 81%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_cpp
+[3.542s] [ 81%] Built target auto_aim_interfaces
+[3.563s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.160s] [ 82%] Built target auto_aim_interfaces__py
+[4.182s] [ 88%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_lights_s.c.o[0m
+[4.182s] [ 88%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_target_s.c.o[0m
+[4.182s] [ 88%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armors_s.c.o[0m
+[4.182s] [ 88%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armor_s.c.o[0m
+[4.182s] [ 88%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armors_s.c.o[0m
+[4.183s] [ 89%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armor_s.c.o[0m
+[4.183s] [ 91%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_light_s.c.o[0m
+[4.302s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so[0m
+[4.342s] [ 92%] Built target auto_aim_interfaces__rosidl_generator_py
+[4.362s] [ 96%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.362s] [ 96%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.362s] [ 96%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.460s] [100%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.460s] [100%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.460s] [100%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.499s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.499s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.499s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_c__pyext
+[4.512s] Invoked command in '/home/wlixill/rm_version4_ws/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wlixill/rm_version4_ws/build/auto_aim_interfaces -- -j16 -l16
+[4.713s] Invoking command in '/home/wlixill/rm_version4_ws/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wlixill/rm_version4_ws/build/auto_aim_interfaces
+[4.721s] -- Install configuration: ""
+[4.721s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/ament_index/resource_index/rosidl_interfaces/auto_aim_interfaces
+[4.721s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[4.721s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[4.721s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.h
+[4.721s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.h
+[4.721s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.h
+[4.721s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[4.721s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.h
+[4.722s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__functions.h
+[4.722s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__functions.c
+[4.722s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.h
+[4.722s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.h
+[4.722s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__functions.h
+[4.723s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.h
+[4.723s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.h
+[4.723s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__functions.h
+[4.723s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__functions.c
+[4.723s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__functions.c
+[4.723s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.h
+[4.723s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__functions.h
+[4.724s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.h
+[4.724s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.h
+[4.724s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.h
+[4.724s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__functions.c
+[4.724s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.h
+[4.724s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__functions.h
+[4.724s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__functions.c
+[4.724s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__functions.h
+[4.725s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.h
+[4.725s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__functions.c
+[4.725s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__functions.h
+[4.725s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.h
+[4.725s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__functions.c
+[4.725s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.h
+[4.725s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.h
+[4.726s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.h
+[4.726s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.h
+[4.726s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.726s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.h
+[4.726s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.h
+[4.726s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.dsv
+[4.726s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so
+[4.727s] -- Set runtime path of "/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so" to ""
+[4.727s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[4.727s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[4.727s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[4.727s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_c.h
+[4.727s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h
+[4.727s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_c.h
+[4.727s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_c.h
+[4.727s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[4.728s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_c.h
+[4.728s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h
+[4.728s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.728s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.728s] -- Set runtime path of "/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.729s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[4.729s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[4.729s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.729s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[4.729s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_c.h
+[4.729s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_c.h
+[4.729s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.c
+[4.729s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h
+[4.729s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h
+[4.729s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.c
+[4.730s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_c.h
+[4.730s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.c
+[4.730s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.c
+[4.730s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h
+[4.730s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.c
+[4.730s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.c
+[4.730s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.c
+[4.731s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_c.h
+[4.731s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so
+[4.731s] -- Set runtime path of "/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.731s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so
+[4.732s] -- Set runtime path of "/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so" to ""
+[4.732s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[4.732s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[4.732s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.hpp
+[4.732s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.hpp
+[4.732s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.hpp
+[4.732s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[4.732s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.hpp
+[4.732s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__builder.hpp
+[4.732s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__builder.hpp
+[4.732s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__traits.hpp
+[4.733s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__builder.hpp
+[4.733s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__builder.hpp
+[4.733s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__traits.hpp
+[4.733s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__traits.hpp
+[4.733s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__builder.hpp
+[4.733s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__traits.hpp
+[4.733s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__builder.hpp
+[4.733s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.hpp
+[4.734s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__traits.hpp
+[4.734s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__traits.hpp
+[4.734s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.hpp
+[4.734s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__builder.hpp
+[4.734s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.hpp
+[4.734s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__traits.hpp
+[4.735s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.hpp
+[4.735s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.hpp
+[4.735s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.hpp
+[4.735s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.hpp
+[4.735s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.hpp
+[4.735s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.hpp
+[4.735s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.hpp
+[4.736s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[4.736s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[4.736s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.736s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[4.736s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp
+[4.736s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_cpp.hpp
+[4.736s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[4.736s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_cpp.hpp
+[4.736s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_cpp.hpp
+[4.736s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/dds_fastrtps
+[4.736s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_cpp.hpp
+[4.737s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp
+[4.737s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.737s] -- Set runtime path of "/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.737s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[4.737s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[4.737s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[4.738s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.cpp
+[4.738s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[4.738s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp
+[4.738s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_cpp.hpp
+[4.738s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.cpp
+[4.738s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_cpp.hpp
+[4.738s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_cpp.hpp
+[4.738s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.cpp
+[4.739s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp
+[4.739s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.cpp
+[4.739s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.cpp
+[4.739s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.cpp
+[4.739s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.cpp
+[4.739s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_cpp.hpp
+[4.739s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.740s] -- Set runtime path of "/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.740s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so
+[4.740s] -- Set runtime path of "/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.740s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.sh
+[4.741s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.dsv
+[4.741s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info
+[4.741s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.741s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.741s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.741s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.741s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces
+[4.741s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py
+[4.741s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.742s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.742s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so
+[4.742s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.742s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.742s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c
+[4.743s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg
+[4.743s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py
+[4.743s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors.py
+[4.743s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py
+[4.743s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors_s.c
+[4.743s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors_s.c
+[4.743s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target_s.c
+[4.743s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor_s.c
+[4.744s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor.py
+[4.744s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor_s.c
+[4.744s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target.py
+[4.744s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light_s.c
+[4.744s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py
+[4.744s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors.py
+[4.744s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor.py
+[4.744s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights_s.c
+[4.745s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.775s] Listing '/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces'...
+[4.775s] Compiling '/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py'...
+[4.775s] Listing '/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg'...
+[4.775s] Compiling '/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py'...
+[4.775s] Compiling '/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor.py'...
+[4.776s] Compiling '/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors.py'...
+[4.776s] Compiling '/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor.py'...
+[4.776s] Compiling '/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors.py'...
+[4.776s] Compiling '/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py'...
+[4.776s] Compiling '/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py'...
+[4.776s] Compiling '/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target.py'...
+[4.779s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.780s] -- Set runtime path of "/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.780s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.780s] -- Set runtime path of "/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.780s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.781s] -- Set runtime path of "/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.781s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so
+[4.781s] -- Set runtime path of "/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so" to ""
+[4.781s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.idl
+[4.781s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.idl
+[4.781s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.idl
+[4.782s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.idl
+[4.782s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.idl
+[4.782s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.idl
+[4.782s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.idl
+[4.782s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.msg
+[4.782s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.msg
+[4.782s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.msg
+[4.782s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.msg
+[4.782s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.msg
+[4.782s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.msg
+[4.782s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.msg
+[4.783s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/ament_index/resource_index/package_run_dependencies/auto_aim_interfaces
+[4.783s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/ament_index/resource_index/parent_prefix_path/auto_aim_interfaces
+[4.783s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.dsv
+[4.783s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.dsv
+[4.783s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.bash
+[4.783s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.sh
+[4.783s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.zsh
+[4.783s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.dsv
+[4.784s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.dsv
+[4.784s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/ament_index/resource_index/packages/auto_aim_interfaces
+[4.784s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport.cmake
+[4.784s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.784s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.784s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.785s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.785s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.785s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport.cmake
+[4.785s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.785s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cppExport.cmake
+[4.785s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.786s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.786s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.786s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.786s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport.cmake
+[4.787s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.787s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport.cmake
+[4.787s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.787s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.787s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.787s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.788s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.788s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.788s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.788s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.788s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig.cmake
+[4.788s] -- Installing: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig-version.cmake
+[4.788s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.xml
+[4.790s] Invoked command in '/home/wlixill/rm_version4_ws/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wlixill/rm_version4_ws/build/auto_aim_interfaces

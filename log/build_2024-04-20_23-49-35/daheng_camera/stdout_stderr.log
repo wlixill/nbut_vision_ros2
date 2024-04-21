@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target daheng_camera[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/daheng_camera.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable daheng_camera[0m
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.406
+[100%] Built target daheng_camera

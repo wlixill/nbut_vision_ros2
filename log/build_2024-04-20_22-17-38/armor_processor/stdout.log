@@ -1,0 +1,8 @@
+[ 66%] [32mBuilding CXX object CMakeFiles/armor_processor_node.dir/rclcpp_components/node_main_armor_processor_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/armor_processor.dir/src/processor_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/armor_processor.dir/src/tracker.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/armor_processor.dir/src/extended_kalman_filter.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable armor_processor_node[0m
+[ 83%] Built target armor_processor_node
+[100%] [32m[1mLinking CXX shared library libarmor_processor.so[0m
+[100%] Built target armor_processor

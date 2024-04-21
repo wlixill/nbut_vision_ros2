@@ -1,0 +1,1 @@
+/root/rm_version4_ws/build/rm_serial_driver/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

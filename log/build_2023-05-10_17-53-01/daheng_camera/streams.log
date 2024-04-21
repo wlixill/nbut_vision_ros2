@@ -1,0 +1,40 @@
+[0.020s] Invoking command in '/root/rm_version4_ws/build/daheng_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rm_version4_ws/build/daheng_camera -- -j12 -l12
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target daheng_camera[0m
+[0.064s] [ 50%] Built target daheng_camera_node
+[0.081s] [ 75%] [32mBuilding CXX object CMakeFiles/daheng_camera.dir/src/daheng_camera_node.cpp.o[0m
+[5.412s] [100%] [32m[1mLinking CXX shared library libdaheng_camera.so[0m
+[5.573s] [100%] Built target daheng_camera
+[5.581s] Invoked command in '/root/rm_version4_ws/build/daheng_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rm_version4_ws/build/daheng_camera -- -j12 -l12
+[5.606s] Invoking command in '/root/rm_version4_ws/build/daheng_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rm_version4_ws/build/daheng_camera
+[5.612s] -- Install configuration: ""
+[5.613s] -- Execute custom install script
+[5.613s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/lib/daheng_camera/daheng_camera_node
+[5.613s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/include/GxCamera.hpp
+[5.613s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/include/daheng_sdk/include/DxImageProc.h
+[5.614s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/include/daheng_sdk/include/GxIAPI.h
+[5.614s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/environment/library_path.sh
+[5.614s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/environment/library_path.dsv
+[5.614s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/lib/libdaheng_camera.so
+[5.614s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/config/camera_info.yaml
+[5.614s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/config/camera_params.yaml
+[5.615s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/launch/daheng_camera.launch.py
+[5.615s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/ament_index/resource_index/package_run_dependencies/daheng_camera
+[5.615s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/ament_index/resource_index/parent_prefix_path/daheng_camera
+[5.615s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/environment/ament_prefix_path.sh
+[5.615s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/environment/ament_prefix_path.dsv
+[5.615s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/environment/path.sh
+[5.615s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/environment/path.dsv
+[5.616s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/local_setup.bash
+[5.616s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/local_setup.sh
+[5.616s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/local_setup.zsh
+[5.616s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/local_setup.dsv
+[5.616s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/package.dsv
+[5.624s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/ament_index/resource_index/packages/daheng_camera
+[5.624s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/ament_index/resource_index/rclcpp_components/daheng_camera
+[5.624s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.624s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.624s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[5.624s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/cmake/daheng_cameraConfig.cmake
+[5.625s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/cmake/daheng_cameraConfig-version.cmake
+[5.625s] -- Up-to-date symlink: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/package.xml
+[5.628s] Invoked command in '/root/rm_version4_ws/build/daheng_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rm_version4_ws/build/daheng_camera

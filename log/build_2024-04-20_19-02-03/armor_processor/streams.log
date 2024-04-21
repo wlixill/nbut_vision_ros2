@@ -1,0 +1,52 @@
+[0.013s] Invoking command in '/home/wlixill/rm_version4_ws/build/armor_processor': CMAKE_PREFIX_PATH=/home/wlixill/rm_version4_ws/install/auto_aim_interfaces:/home/wlixill/rm_version4_ws/install/auto_aim_bringup:/home/wlixill/rm_version4_ws/install/rm_serial_driver:/home/wlixill/rm_version4_ws/install/rm_gimbal_description:/home/wlixill/rm_version4_ws/install/daheng_camera:/home/wlixill/rm_version4_ws/install/armor_processor:/home/wlixill/rm_version4_ws/install/armor_detector:/home/wlixill/rm_tools/install/daheng_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib:/home/wlixill/rm_version4_ws/install/rm_serial_driver/lib:/home/wlixill/rm_version4_ws/install/daheng_camera/lib:/home/wlixill/rm_version4_ws/install/armor_processor/lib:/home/wlixill/rm_version4_ws/install/armor_detector/lib:/home/wlixill/rm_tools/install/daheng_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/wlixill/rm_version4_ws/src/rm_auto_aim/armor_processor -DCMAKE_INSTALL_PREFIX=/home/wlixill/rm_version4_ws/install/armor_processor
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.105s] -- The CXX compiler identification is GNU 11.4.0
+[0.111s] -- Detecting C compiler ABI info
+[0.169s] -- Detecting C compiler ABI info - done
+[0.179s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.179s] -- Detecting C compile features
+[0.180s] -- Detecting C compile features - done
+[0.183s] -- Detecting CXX compiler ABI info
+[0.252s] -- Detecting CXX compiler ABI info - done
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.257s] -- Detecting CXX compile features
+[0.257s] -- Detecting CXX compile features - done
+[0.260s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.377s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.559s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.564s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.572s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.584s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.600s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.657s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.660s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.750s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.775s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.816s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.825s] -- Looking for pthread.h
+[0.892s] -- Looking for pthread.h - found
+[0.893s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.972s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.973s] -- Found Threads: TRUE  
+[1.353s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.354s] -- Found Eigen3: TRUE (found version "3.3.9") 
+[1.354s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.614s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.647s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.647s] -- Configured cppcheck include dirs: /home/wlixill/rm_version4_ws/src/rm_auto_aim/armor_processor/include
+[1.647s] -- Configured cppcheck exclude dirs and/or files: 
+[1.648s] -- Added test 'lint_cmake' to check CMake code style
+[1.648s] -- Added test 'xmllint' to check XML markup files
+[1.651s] -- Configuring done
+[1.666s] -- Generating done
+[1.668s] -- Build files have been written to: /home/wlixill/rm_version4_ws/build/armor_processor
+[1.682s] Invoked command in '/home/wlixill/rm_version4_ws/build/armor_processor' returned '0': CMAKE_PREFIX_PATH=/home/wlixill/rm_version4_ws/install/auto_aim_interfaces:/home/wlixill/rm_version4_ws/install/auto_aim_bringup:/home/wlixill/rm_version4_ws/install/rm_serial_driver:/home/wlixill/rm_version4_ws/install/rm_gimbal_description:/home/wlixill/rm_version4_ws/install/daheng_camera:/home/wlixill/rm_version4_ws/install/armor_processor:/home/wlixill/rm_version4_ws/install/armor_detector:/home/wlixill/rm_tools/install/daheng_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib:/home/wlixill/rm_version4_ws/install/rm_serial_driver/lib:/home/wlixill/rm_version4_ws/install/daheng_camera/lib:/home/wlixill/rm_version4_ws/install/armor_processor/lib:/home/wlixill/rm_version4_ws/install/armor_detector/lib:/home/wlixill/rm_tools/install/daheng_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/wlixill/rm_version4_ws/src/rm_auto_aim/armor_processor -DCMAKE_INSTALL_PREFIX=/home/wlixill/rm_version4_ws/install/armor_processor
+[1.684s] Invoking command in '/home/wlixill/rm_version4_ws/build/armor_processor': CMAKE_PREFIX_PATH=/home/wlixill/rm_version4_ws/install/auto_aim_interfaces:/home/wlixill/rm_version4_ws/install/auto_aim_bringup:/home/wlixill/rm_version4_ws/install/rm_serial_driver:/home/wlixill/rm_version4_ws/install/rm_gimbal_description:/home/wlixill/rm_version4_ws/install/daheng_camera:/home/wlixill/rm_version4_ws/install/armor_processor:/home/wlixill/rm_version4_ws/install/armor_detector:/home/wlixill/rm_tools/install/daheng_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib:/home/wlixill/rm_version4_ws/install/rm_serial_driver/lib:/home/wlixill/rm_version4_ws/install/daheng_camera/lib:/home/wlixill/rm_version4_ws/install/armor_processor/lib:/home/wlixill/rm_version4_ws/install/armor_detector/lib:/home/wlixill/rm_tools/install/daheng_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/wlixill/rm_version4_ws/build/armor_processor -- -j16 -l16
+[1.737s] [ 16%] [32mBuilding CXX object CMakeFiles/armor_processor.dir/src/processor_node.cpp.o[0m
+[1.740s] [ 50%] [32mBuilding CXX object CMakeFiles/armor_processor.dir/src/extended_kalman_filter.cpp.o[0m
+[1.740s] [ 50%] [32mBuilding CXX object CMakeFiles/armor_processor.dir/src/tracker.cpp.o[0m
+[1.747s] [ 66%] [32mBuilding CXX object CMakeFiles/armor_processor_node.dir/rclcpp_components/node_main_armor_processor_node.cpp.o[0m
+[5.078s] [ 83%] [32m[1mLinking CXX executable armor_processor_node[0m
+[5.178s] [ 83%] Built target armor_processor_node
+[10.519s] [100%] [32m[1mLinking CXX shared library libarmor_processor.so[0m
+[10.989s] [100%] Built target armor_processor

@@ -1,0 +1,59 @@
+[0.008s] Invoking command in '/home/wlixill/rm_version4_ws/build/rm_serial_driver': CMAKE_PREFIX_PATH=/home/wlixill/rm_version4_ws/install/auto_aim_interfaces:/home/wlixill/rm_version4_ws/install/auto_aim_bringup:/home/wlixill/rm_version4_ws/install/rm_serial_driver:/home/wlixill/rm_version4_ws/install/rm_gimbal_description:/home/wlixill/rm_version4_ws/install/daheng_camera:/home/wlixill/rm_version4_ws/install/armor_processor:/home/wlixill/rm_version4_ws/install/armor_detector:/home/wlixill/rm_tools/install/daheng_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib:/home/wlixill/rm_version4_ws/install/rm_serial_driver/lib:/home/wlixill/rm_version4_ws/install/daheng_camera/lib:/home/wlixill/rm_version4_ws/install/armor_processor/lib:/home/wlixill/rm_version4_ws/install/armor_detector/lib:/home/wlixill/rm_tools/install/daheng_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/wlixill/rm_version4_ws/src/rm_auto_aim/rm_serial_driver -DCMAKE_INSTALL_PREFIX=/home/wlixill/rm_version4_ws/install/rm_serial_driver
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.115s] -- Detecting C compiler ABI info
+[0.175s] -- Detecting C compiler ABI info - done
+[0.179s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.179s] -- Detecting C compile features
+[0.180s] -- Detecting C compile features - done
+[0.182s] -- Detecting CXX compiler ABI info
+[0.306s] -- Detecting CXX compiler ABI info - done
+[0.310s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.311s] -- Detecting CXX compile features
+[0.311s] -- Detecting CXX compile features - done
+[0.313s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.433s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.599s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.604s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.611s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.623s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.700s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.703s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.794s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.818s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.860s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.869s] -- Looking for pthread.h
+[0.934s] -- Looking for pthread.h - found
+[0.934s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.024s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.024s] -- Found Threads: TRUE  
+[1.438s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.470s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.470s] -- Configured cppcheck include dirs: /home/wlixill/rm_version4_ws/src/rm_auto_aim/rm_serial_driver/include
+[1.470s] -- Configured cppcheck exclude dirs and/or files: 
+[1.471s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.471s] -- Configured cpplint exclude dirs and/or files: 
+[1.472s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.472s] -- Added test 'lint_cmake' to check CMake code style
+[1.473s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.473s] -- Added test 'xmllint' to check XML markup files
+[1.476s] -- Configuring done
+[1.488s] -- Generating done
+[1.489s] -- Build files have been written to: /home/wlixill/rm_version4_ws/build/rm_serial_driver
+[1.499s] Invoked command in '/home/wlixill/rm_version4_ws/build/rm_serial_driver' returned '0': CMAKE_PREFIX_PATH=/home/wlixill/rm_version4_ws/install/auto_aim_interfaces:/home/wlixill/rm_version4_ws/install/auto_aim_bringup:/home/wlixill/rm_version4_ws/install/rm_serial_driver:/home/wlixill/rm_version4_ws/install/rm_gimbal_description:/home/wlixill/rm_version4_ws/install/daheng_camera:/home/wlixill/rm_version4_ws/install/armor_processor:/home/wlixill/rm_version4_ws/install/armor_detector:/home/wlixill/rm_tools/install/daheng_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib:/home/wlixill/rm_version4_ws/install/rm_serial_driver/lib:/home/wlixill/rm_version4_ws/install/daheng_camera/lib:/home/wlixill/rm_version4_ws/install/armor_processor/lib:/home/wlixill/rm_version4_ws/install/armor_detector/lib:/home/wlixill/rm_tools/install/daheng_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/wlixill/rm_version4_ws/src/rm_auto_aim/rm_serial_driver -DCMAKE_INSTALL_PREFIX=/home/wlixill/rm_version4_ws/install/rm_serial_driver
+[1.500s] Invoking command in '/home/wlixill/rm_version4_ws/build/rm_serial_driver': CMAKE_PREFIX_PATH=/home/wlixill/rm_version4_ws/install/auto_aim_interfaces:/home/wlixill/rm_version4_ws/install/auto_aim_bringup:/home/wlixill/rm_version4_ws/install/rm_serial_driver:/home/wlixill/rm_version4_ws/install/rm_gimbal_description:/home/wlixill/rm_version4_ws/install/daheng_camera:/home/wlixill/rm_version4_ws/install/armor_processor:/home/wlixill/rm_version4_ws/install/armor_detector:/home/wlixill/rm_tools/install/daheng_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib:/home/wlixill/rm_version4_ws/install/rm_serial_driver/lib:/home/wlixill/rm_version4_ws/install/daheng_camera/lib:/home/wlixill/rm_version4_ws/install/armor_processor/lib:/home/wlixill/rm_version4_ws/install/armor_detector/lib:/home/wlixill/rm_tools/install/daheng_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/wlixill/rm_version4_ws/build/rm_serial_driver -- -j16 -l16
+[1.548s] [ 50%] [32mBuilding CXX object CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o[0m
+[1.548s] [ 50%] [32mBuilding CXX object CMakeFiles/rm_serial_driver_node.dir/rclcpp_components/node_main_rm_serial_driver_node.cpp.o[0m
+[1.773s] In file included from [01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/rm_serial_driver/src/rm_serial_driver.cpp:4[m[K:
+[1.773s] [01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Kserial_driver/serial_driver.hpp: 没有那个文件或目录
+[1.773s]    11 | #include [01;31m[K<serial_driver/serial_driver.hpp>[m[K
+[1.774s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.774s] compilation terminated.
+[1.777s] gmake[2]: *** [CMakeFiles/rm_serial_driver.dir/build.make:76：CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o] 错误 1
+[1.778s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/rm_serial_driver.dir/all] 错误 2
+[1.778s] gmake[1]: *** 正在等待未完成的任务....
+[5.124s] [ 75%] [32m[1mLinking CXX executable rm_serial_driver_node[0m
+[5.227s] [ 75%] Built target rm_serial_driver_node
+[5.228s] gmake: *** [Makefile:146：all] 错误 2
+[5.230s] Invoked command in '/home/wlixill/rm_version4_ws/build/rm_serial_driver' returned '2': CMAKE_PREFIX_PATH=/home/wlixill/rm_version4_ws/install/auto_aim_interfaces:/home/wlixill/rm_version4_ws/install/auto_aim_bringup:/home/wlixill/rm_version4_ws/install/rm_serial_driver:/home/wlixill/rm_version4_ws/install/rm_gimbal_description:/home/wlixill/rm_version4_ws/install/daheng_camera:/home/wlixill/rm_version4_ws/install/armor_processor:/home/wlixill/rm_version4_ws/install/armor_detector:/home/wlixill/rm_tools/install/daheng_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib:/home/wlixill/rm_version4_ws/install/rm_serial_driver/lib:/home/wlixill/rm_version4_ws/install/daheng_camera/lib:/home/wlixill/rm_version4_ws/install/armor_processor/lib:/home/wlixill/rm_version4_ws/install/armor_detector/lib:/home/wlixill/rm_tools/install/daheng_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/wlixill/rm_version4_ws/build/rm_serial_driver -- -j16 -l16

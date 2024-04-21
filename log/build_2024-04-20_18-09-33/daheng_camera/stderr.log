@@ -1,0 +1,37 @@
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/src/daheng_camera_node.cpp:[m[K In constructor ‘[01m[Kdaheng_camera::AcquisitionNode::AcquisitionNode(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/src/daheng_camera_node.cpp:42:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGxCamera::initial(size_t&, double&)[m[K’
+   42 |             bool camera_init_ok = [01;31m[Kcamera_.initial(exposure_time_, gain_)[m[K &&
+      |                                   [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/src/daheng_camera_node.cpp:14[m[K:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:127:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool GxCamera::initial()[m[K’
+  127 |     bool [01;36m[Kinitial[m[K();
+      |          [01;36m[K^~~~~~~[m[K
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:127:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/src/daheng_camera_node.cpp:49:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGxCamera::initial(size_t&, double&)[m[K’
+   49 |                 camera_init_ok = [01;31m[Kcamera_.initial(exposure_time_, gain_)[m[K &&
+      |                                  [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/src/daheng_camera_node.cpp:14[m[K:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:127:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool GxCamera::initial()[m[K’
+  127 |     bool [01;36m[Kinitial[m[K();
+      |          [01;36m[K^~~~~~~[m[K
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:127:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/src/daheng_camera_node.cpp:[m[K In member function ‘[01m[Kvoid daheng_camera::AcquisitionNode::reopenCamera()[m[K’:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/src/daheng_camera_node.cpp:143:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGxCamera::initial(size_t&, double&)[m[K’
+  143 |     bool camera_init_ok = [01;31m[Kcamera_.initial(exposure_time_, gain_)[m[K &&
+      |                           [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/src/daheng_camera_node.cpp:14[m[K:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:127:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool GxCamera::initial()[m[K’
+  127 |     bool [01;36m[Kinitial[m[K();
+      |          [01;36m[K^~~~~~~[m[K
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:127:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/src/daheng_camera_node.cpp:150:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGxCamera::initial(size_t&, double&)[m[K’
+  150 |         camera_init_ok = [01;31m[Kcamera_.initial(exposure_time_, gain_)[m[K &&
+      |                          [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/src/daheng_camera_node.cpp:14[m[K:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:127:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool GxCamera::initial()[m[K’
+  127 |     bool [01;36m[Kinitial[m[K();
+      |          [01;36m[K^~~~~~~[m[K
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:127:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+gmake[2]: *** [CMakeFiles/daheng_camera.dir/build.make:76：CMakeFiles/daheng_camera.dir/src/daheng_camera_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/daheng_camera.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

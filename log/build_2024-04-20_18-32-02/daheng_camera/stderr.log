@@ -1,0 +1,4 @@
+gmake[2]: *** 正在删除文件“CMakeFiles/daheng_camera.dir/src/daheng_camera_node.cpp.o”
+gmake[2]: *** [CMakeFiles/daheng_camera.dir/build.make:76: CMakeFiles/daheng_camera.dir/src/daheng_camera_node.cpp.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/daheng_camera.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

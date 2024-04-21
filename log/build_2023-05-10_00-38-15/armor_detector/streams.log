@@ -1,0 +1,44 @@
+[0.015s] Invoking command in '/root/rm_version4_ws/build/armor_detector': CMAKE_PREFIX_PATH=/root/rm_version4_ws/install/auto_aim_interfaces:/root/rm_version4_ws/install/auto_aim_bringup:/root/rm_version4_ws/install/rm_serial_driver:/root/rm_version4_ws/install/rm_gimbal_description:/root/rm_version4_ws/install/daheng_camera:/root/rm_version4_ws/install/armor_processor:/root/rm_version4_ws/install/armor_detector:/root/test_jun_ws/install/rm_gimbal_description:/opt/ros/humble LD_LIBRARY_PATH=/root/rm_version4_ws/install/auto_aim_interfaces/lib:/root/rm_version4_ws/install/rm_serial_driver/lib:/root/rm_version4_ws/install/daheng_camera/lib:/root/rm_version4_ws/install/armor_processor/lib:/root/rm_version4_ws/install/armor_detector/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/rm_version4_ws/build/armor_detector -- -j12 -l12
+[0.057s] [ 26%] Built target gtest
+[0.057s] [ 26%] Built target gtest_main
+[0.060s] [ 40%] Built target armor_detector_node
+[0.064s] [ 73%] Built target armor_detector
+[0.082s] [ 86%] Built target test_number_cls
+[0.085s] [100%] Built target test_node_startup
+[0.093s] Invoked command in '/root/rm_version4_ws/build/armor_detector' returned '0': CMAKE_PREFIX_PATH=/root/rm_version4_ws/install/auto_aim_interfaces:/root/rm_version4_ws/install/auto_aim_bringup:/root/rm_version4_ws/install/rm_serial_driver:/root/rm_version4_ws/install/rm_gimbal_description:/root/rm_version4_ws/install/daheng_camera:/root/rm_version4_ws/install/armor_processor:/root/rm_version4_ws/install/armor_detector:/root/test_jun_ws/install/rm_gimbal_description:/opt/ros/humble LD_LIBRARY_PATH=/root/rm_version4_ws/install/auto_aim_interfaces/lib:/root/rm_version4_ws/install/rm_serial_driver/lib:/root/rm_version4_ws/install/daheng_camera/lib:/root/rm_version4_ws/install/armor_processor/lib:/root/rm_version4_ws/install/armor_detector/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/rm_version4_ws/build/armor_detector -- -j12 -l12
+[0.119s] Invoking command in '/root/rm_version4_ws/build/armor_detector': CMAKE_PREFIX_PATH=/root/rm_version4_ws/install/auto_aim_interfaces:/root/rm_version4_ws/install/auto_aim_bringup:/root/rm_version4_ws/install/rm_serial_driver:/root/rm_version4_ws/install/rm_gimbal_description:/root/rm_version4_ws/install/daheng_camera:/root/rm_version4_ws/install/armor_processor:/root/rm_version4_ws/install/armor_detector:/root/test_jun_ws/install/rm_gimbal_description:/opt/ros/humble LD_LIBRARY_PATH=/root/rm_version4_ws/install/auto_aim_interfaces/lib:/root/rm_version4_ws/install/rm_serial_driver/lib:/root/rm_version4_ws/install/daheng_camera/lib:/root/rm_version4_ws/install/armor_processor/lib:/root/rm_version4_ws/install/armor_detector/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/rm_version4_ws/build/armor_detector
+[0.123s] -- Install configuration: ""
+[0.124s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/lib/armor_detector/armor_detector_node
+[0.124s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/include
+[0.124s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/include/armor_detector
+[0.124s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/include/armor_detector/number_classifier.hpp
+[0.124s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/include/armor_detector/detector.hpp
+[0.124s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/include/armor_detector/detector_node.hpp
+[0.124s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/include/armor_detector/armor.hpp
+[0.124s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/include/armor_detector/pnp_solver.hpp
+[0.124s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/environment/library_path.sh
+[0.124s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/environment/library_path.dsv
+[0.125s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/lib/libarmor_detector.so
+[0.125s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/model
+[0.125s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/model/label.txt
+[0.125s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/model/fc.onnx
+[0.125s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/ament_index/resource_index/package_run_dependencies/armor_detector
+[0.125s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/ament_index/resource_index/parent_prefix_path/armor_detector
+[0.125s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/environment/ament_prefix_path.sh
+[0.125s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/environment/ament_prefix_path.dsv
+[0.125s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/environment/path.sh
+[0.125s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/environment/path.dsv
+[0.126s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/local_setup.bash
+[0.126s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/local_setup.sh
+[0.126s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/local_setup.zsh
+[0.126s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/local_setup.dsv
+[0.126s] -- Installing: /root/rm_version4_ws/install/armor_detector/share/armor_detector/package.dsv
+[0.126s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/ament_index/resource_index/packages/armor_detector
+[0.126s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/ament_index/resource_index/rclcpp_components/armor_detector
+[0.126s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.126s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.126s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[0.126s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig.cmake
+[0.126s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig-version.cmake
+[0.126s] -- Up-to-date: /root/rm_version4_ws/install/armor_detector/share/armor_detector/package.xml
+[0.128s] Invoked command in '/root/rm_version4_ws/build/armor_detector' returned '0': CMAKE_PREFIX_PATH=/root/rm_version4_ws/install/auto_aim_interfaces:/root/rm_version4_ws/install/auto_aim_bringup:/root/rm_version4_ws/install/rm_serial_driver:/root/rm_version4_ws/install/rm_gimbal_description:/root/rm_version4_ws/install/daheng_camera:/root/rm_version4_ws/install/armor_processor:/root/rm_version4_ws/install/armor_detector:/root/test_jun_ws/install/rm_gimbal_description:/opt/ros/humble LD_LIBRARY_PATH=/root/rm_version4_ws/install/auto_aim_interfaces/lib:/root/rm_version4_ws/install/rm_serial_driver/lib:/root/rm_version4_ws/install/daheng_camera/lib:/root/rm_version4_ws/install/armor_processor/lib:/root/rm_version4_ws/install/armor_detector/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/rm_version4_ws/build/armor_detector

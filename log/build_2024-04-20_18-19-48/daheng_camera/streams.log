@@ -1,0 +1,5 @@
+[0.011s] Invoking command in '/home/wlixill/rm_version4_ws/build/daheng_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wlixill/rm_version4_ws/build/daheng_camera -- -j16 -l16
+[0.058s] [ 50%] Built target daheng_camera_node
+[0.058s] [ 75%] [32mBuilding CXX object CMakeFiles/daheng_camera.dir/src/daheng_camera_node.cpp.o[0m
+[3.412s] [100%] [32m[1mLinking CXX shared library libdaheng_camera.so[0m
+[3.538s] [100%] Built target daheng_camera

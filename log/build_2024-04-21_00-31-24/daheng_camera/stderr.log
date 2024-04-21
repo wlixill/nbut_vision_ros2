@@ -1,0 +1,16 @@
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.cpp:[m[K In constructor ‘[01m[KGxCamera::GxCamera()[m[K’:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.cpp:22:19:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   22 |     g_pDeviceSN = [01;35m[K"KJ0190120002"[m[K;
+      |                   [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.cpp:[m[K In member function ‘[01m[Kbool GxCamera::close()[m[K’:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.cpp:105:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  105 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.cpp:[m[K In member function ‘[01m[Kbool GxCamera::openDevice(bool, const char*)[m[K’:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.cpp:135:34:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+  135 |         stOpenParam.pszContent = [01;35m[K"1"[m[K; // SN号，根据此打开设备
+      |                                  [01;35m[K^~~[m[K
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.cpp:[m[K In member function ‘[01m[KGX_STATUS GxCamera::setRoi()[m[K’:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.cpp:373:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  373 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K

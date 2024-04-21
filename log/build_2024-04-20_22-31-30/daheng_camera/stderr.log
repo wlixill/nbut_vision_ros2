@@ -1,0 +1,15 @@
+In file included from [01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/src/daheng_camera_node.cpp:14[m[K:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:[m[K In member function ‘[01m[Kbool GxCamera::read(cv::Mat*, float*)[m[K’:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:319:33:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KPGX_FRAME_BUFFER[m[K’ {aka ‘[01m[KGX_FRAME_BUFFER*[m[K’} to ‘[01m[KGX_FRAME_BUFFER**[m[K’
+  319 |   emStatus = GXDQBuf(g_hDevice, [01;31m[KpFrameBuffer[m[K, 1000);
+      |                                 [01;31m[K^~~~~~~~~~~~[m[K
+      |                                 [01;31m[K|[m[K
+      |                                 [01;31m[KPGX_FRAME_BUFFER {aka GX_FRAME_BUFFER*}[m[K
+In file included from [01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:20[m[K,
+                 from [01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/src/daheng_camera_node.cpp:14[m[K:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/daheng_sdk/include/GxIAPI.h:2013:35:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[KGX_STATUS GXDQBuf(GX_DEV_HANDLE, GX_FRAME_BUFFER**, uint32_t)[m[K’
+ 2013 |                 [01;36m[KPGX_FRAME_BUFFER *ppFrameBuffer[m[K,
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/daheng_camera.dir/build.make:76：CMakeFiles/daheng_camera.dir/src/daheng_camera_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/daheng_camera.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

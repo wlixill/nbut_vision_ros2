@@ -1,0 +1,11 @@
+In file included from [01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/src/main.cpp:14[m[K:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:[m[K In member function ‘[01m[Kbool GxCamera::read(cv::Mat*, float*)[m[K’:
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:319:16:[m[K [01;31m[Kerror: [m[Kexpected string-literal before ‘[01m[K)[m[K’ token
+  319 |   asm volatile([01;31m[K)[m[K;
+      |                [01;31m[K^[m[K
+[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:321:16:[m[K [01;31m[Kerror: [m[Kexpected string-literal before ‘[01m[K)[m[K’ token
+  321 |   asm volatile([01;31m[K)[m[K;
+      |                [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/daheng_camera.dir/build.make:76：CMakeFiles/daheng_camera.dir/src/main.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/daheng_camera.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,64 @@
+[0.023s] Invoking command in '/root/rm_version4_ws/build/daheng_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/rm_version4_ws/src/rm_auto_aim/daheng_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/rm_version4_ws/install/daheng_camera
+[0.048s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.177s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.288s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.289s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.294s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.303s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.315s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.366s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.368s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.514s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.889s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.901s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.901s] -- Configured cppcheck include dirs: /root/rm_version4_ws/src/rm_auto_aim/daheng_camera/include
+[0.901s] -- Configured cppcheck exclude dirs and/or files: 
+[0.902s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.902s] -- Added test 'lint_cmake' to check CMake code style
+[0.902s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.903s] -- Added test 'xmllint' to check XML markup files
+[0.907s] -- Configuring done
+[0.929s] -- Generating done
+[0.931s] -- Build files have been written to: /root/rm_version4_ws/build/daheng_camera
+[0.943s] Invoked command in '/root/rm_version4_ws/build/daheng_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/rm_version4_ws/src/rm_auto_aim/daheng_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/rm_version4_ws/install/daheng_camera
+[0.944s] Invoking command in '/root/rm_version4_ws/build/daheng_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rm_version4_ws/build/daheng_camera -- -j12 -l12
+[0.982s] [35m[1mConsolidate compiler generated dependencies of target daheng_camera[0m
+[0.982s] [35m[1mConsolidate compiler generated dependencies of target daheng_camera_node[0m
+[1.010s] [ 50%] [32m[1mLinking CXX executable daheng_camera_node[0m
+[1.010s] [ 50%] [32m[1mLinking CXX shared library libdaheng_camera.so[0m
+[1.163s] [ 75%] Built target daheng_camera_node
+[1.236s] [100%] Built target daheng_camera
+[1.245s] Invoked command in '/root/rm_version4_ws/build/daheng_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rm_version4_ws/build/daheng_camera -- -j12 -l12
+[1.270s] Invoking command in '/root/rm_version4_ws/build/daheng_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rm_version4_ws/build/daheng_camera
+[1.277s] -- Install configuration: ""
+[1.277s] -- Execute custom install script
+[1.278s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/lib/daheng_camera/daheng_camera_node
+[1.287s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/include/GxCamera.hpp
+[1.294s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/include/daheng_sdk/include/DxImageProc.h
+[1.301s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/include/daheng_sdk/include/GxIAPI.h
+[1.310s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/environment/library_path.sh
+[1.318s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/environment/library_path.dsv
+[1.327s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/lib/libdaheng_camera.so
+[1.335s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/config/camera_info.yaml
+[1.343s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/config/camera_params.yaml
+[1.352s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/launch/daheng_camera.launch.py
+[1.359s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/ament_index/resource_index/package_run_dependencies/daheng_camera
+[1.366s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/ament_index/resource_index/parent_prefix_path/daheng_camera
+[1.373s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/environment/ament_prefix_path.sh
+[1.379s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/environment/ament_prefix_path.dsv
+[1.386s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/environment/path.sh
+[1.393s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/environment/path.dsv
+[1.401s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/local_setup.bash
+[1.408s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/local_setup.sh
+[1.417s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/local_setup.zsh
+[1.425s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/local_setup.dsv
+[1.432s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/package.dsv
+[1.439s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/ament_index/resource_index/packages/daheng_camera
+[1.447s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/ament_index/resource_index/rclcpp_components/daheng_camera
+[1.455s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.462s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.469s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[1.476s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/cmake/daheng_cameraConfig.cmake
+[1.483s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/cmake/daheng_cameraConfig-version.cmake
+[1.490s] -- Symlinking: /root/rm_version4_ws/install/daheng_camera/share/daheng_camera/package.xml
+[1.500s] Invoked command in '/root/rm_version4_ws/build/daheng_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rm_version4_ws/build/daheng_camera

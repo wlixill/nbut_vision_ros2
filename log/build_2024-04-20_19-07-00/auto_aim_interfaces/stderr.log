@@ -1,0 +1,2 @@
+gmake[1]: *** [CMakeFiles/Makefile2:448: CMakeFiles/ament_cmake_python_build_auto_aim_interfaces_egg.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

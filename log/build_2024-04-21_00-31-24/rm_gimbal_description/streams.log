@@ -1,0 +1,42 @@
+[0.012s] Invoking command in '/home/wlixill/rm_version4_ws/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/wlixill/rm_version4_ws/src/rm_auto_aim/rm_gimbal_description -DCMAKE_INSTALL_PREFIX=/home/wlixill/rm_version4_ws/install/rm_gimbal_description
+[0.108s] -- The C compiler identification is GNU 11.4.0
+[5.505s] -- The CXX compiler identification is GNU 11.4.0
+[5.512s] -- Detecting C compiler ABI info
+[5.608s] -- Detecting C compiler ABI info - done
+[5.614s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.614s] -- Detecting C compile features
+[5.615s] -- Detecting C compile features - done
+[5.617s] -- Detecting CXX compiler ABI info
+[8.530s] -- Detecting CXX compiler ABI info - done
+[8.536s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.536s] -- Detecting CXX compile features
+[8.536s] -- Detecting CXX compile features - done
+[8.539s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.663s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.741s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.809s] -- Added test 'lint_cmake' to check CMake code style
+[8.813s] -- Added test 'xmllint' to check XML markup files
+[8.814s] -- Configuring done
+[8.817s] -- Generating done
+[8.818s] -- Build files have been written to: /home/wlixill/rm_version4_ws/build/rm_gimbal_description
+[8.821s] Invoked command in '/home/wlixill/rm_version4_ws/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/wlixill/rm_version4_ws/src/rm_auto_aim/rm_gimbal_description -DCMAKE_INSTALL_PREFIX=/home/wlixill/rm_version4_ws/install/rm_gimbal_description
+[8.823s] Invoking command in '/home/wlixill/rm_version4_ws/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wlixill/rm_version4_ws/build/rm_gimbal_description -- -j16 -l16
+[8.861s] Invoked command in '/home/wlixill/rm_version4_ws/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wlixill/rm_version4_ws/build/rm_gimbal_description -- -j16 -l16
+[8.893s] Invoking command in '/home/wlixill/rm_version4_ws/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wlixill/rm_version4_ws/build/rm_gimbal_description
+[8.899s] -- Install configuration: ""
+[8.900s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/rm_gimbal_description/share/rm_gimbal_description/urdf
+[8.900s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/rm_gimbal_description/share/rm_gimbal_description/urdf/rm_gimbal.urdf.xacro
+[8.900s] -- Installing: /home/wlixill/rm_version4_ws/install/rm_gimbal_description/share/ament_index/resource_index/package_run_dependencies/rm_gimbal_description
+[8.900s] -- Installing: /home/wlixill/rm_version4_ws/install/rm_gimbal_description/share/ament_index/resource_index/parent_prefix_path/rm_gimbal_description
+[8.900s] -- Installing: /home/wlixill/rm_version4_ws/install/rm_gimbal_description/share/rm_gimbal_description/environment/ament_prefix_path.dsv
+[8.900s] -- Installing: /home/wlixill/rm_version4_ws/install/rm_gimbal_description/share/rm_gimbal_description/environment/path.dsv
+[8.900s] -- Installing: /home/wlixill/rm_version4_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.bash
+[8.900s] -- Installing: /home/wlixill/rm_version4_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.sh
+[8.900s] -- Installing: /home/wlixill/rm_version4_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.zsh
+[8.901s] -- Installing: /home/wlixill/rm_version4_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.dsv
+[8.901s] -- Installing: /home/wlixill/rm_version4_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.dsv
+[8.901s] -- Installing: /home/wlixill/rm_version4_ws/install/rm_gimbal_description/share/ament_index/resource_index/packages/rm_gimbal_description
+[8.901s] -- Installing: /home/wlixill/rm_version4_ws/install/rm_gimbal_description/share/rm_gimbal_description/cmake/rm_gimbal_descriptionConfig.cmake
+[8.901s] -- Installing: /home/wlixill/rm_version4_ws/install/rm_gimbal_description/share/rm_gimbal_description/cmake/rm_gimbal_descriptionConfig-version.cmake
+[8.901s] -- Up-to-date: /home/wlixill/rm_version4_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.xml
+[8.903s] Invoked command in '/home/wlixill/rm_version4_ws/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wlixill/rm_version4_ws/build/rm_gimbal_description

@@ -1,0 +1,102 @@
+[0.020s] Invoking command in '/root/rm_version4_ws/build/armor_detector': CMAKE_PREFIX_PATH=/root/rm_version4_ws/install/auto_aim_interfaces:/root/rm_version4_ws/install/auto_aim_bringup:/root/rm_version4_ws/install/rm_serial_driver:/root/rm_version4_ws/install/rm_gimbal_description:/root/rm_version4_ws/install/daheng_camera:/root/rm_version4_ws/install/armor_processor:/root/rm_version4_ws/install/armor_detector:/root/daheng_camera/install/daheng_camera:/root/chenjun_ws/install/daheng_camera:/root/chenjun_ws/install/auto_aim_bringup:/root/chenjun_ws/install/armor_processor:/root/chenjun_ws/install/armor_detector:/root/chenjun_ws/install/auto_aim_interfaces:/root/test_jun_ws/install/rm_gimbal_description:/opt/ros/humble LD_LIBRARY_PATH=/root/rm_version4_ws/install/auto_aim_interfaces/lib:/root/rm_version4_ws/install/rm_serial_driver/lib:/root/rm_version4_ws/install/daheng_camera/lib:/root/rm_version4_ws/install/armor_processor/lib:/root/rm_version4_ws/install/armor_detector/lib:/root/daheng_camera/install/daheng_camera/lib:/root/chenjun_ws/install/daheng_camera/lib:/root/chenjun_ws/install/armor_processor/lib:/root/chenjun_ws/install/armor_detector/lib:/root/chenjun_ws/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /root/rm_version4_ws/src/rm_auto_aim/armor_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/rm_version4_ws/install/armor_detector
+[0.066s] -- The C compiler identification is GNU 11.2.0
+[0.114s] -- The CXX compiler identification is GNU 11.2.0
+[0.121s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.188s] -- Detecting CXX compiler ABI info
+[0.262s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.267s] -- Detecting CXX compile features
+[0.268s] -- Detecting CXX compile features - done
+[0.270s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.419s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.477s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.520s] -- Found OpenCV: /usr (found version "4.5.4") 
+[0.648s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.653s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.663s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.677s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.696s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.764s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.767s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.856s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.886s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.945s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.501s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.531s] -- Found ament_cmake_gtest: 1.3.2 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.534s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.538s] -- Looking for pthread.h
+[1.601s] -- Looking for pthread.h - found
+[1.601s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.670s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.671s] -- Found Threads: TRUE  
+[1.684s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.684s] -- Configured cppcheck include dirs: /root/rm_version4_ws/src/rm_auto_aim/armor_detector/include
+[1.684s] -- Configured cppcheck exclude dirs and/or files: 
+[1.685s] -- Added test 'lint_cmake' to check CMake code style
+[1.686s] -- Added test 'xmllint' to check XML markup files
+[1.688s] -- Added test 'clang_format' to check C / C++ code style
+[1.691s] -- Configuring done
+[1.725s] -- Generating done
+[1.727s] -- Build files have been written to: /root/rm_version4_ws/build/armor_detector
+[1.753s] Invoked command in '/root/rm_version4_ws/build/armor_detector' returned '0': CMAKE_PREFIX_PATH=/root/rm_version4_ws/install/auto_aim_interfaces:/root/rm_version4_ws/install/auto_aim_bringup:/root/rm_version4_ws/install/rm_serial_driver:/root/rm_version4_ws/install/rm_gimbal_description:/root/rm_version4_ws/install/daheng_camera:/root/rm_version4_ws/install/armor_processor:/root/rm_version4_ws/install/armor_detector:/root/daheng_camera/install/daheng_camera:/root/chenjun_ws/install/daheng_camera:/root/chenjun_ws/install/auto_aim_bringup:/root/chenjun_ws/install/armor_processor:/root/chenjun_ws/install/armor_detector:/root/chenjun_ws/install/auto_aim_interfaces:/root/test_jun_ws/install/rm_gimbal_description:/opt/ros/humble LD_LIBRARY_PATH=/root/rm_version4_ws/install/auto_aim_interfaces/lib:/root/rm_version4_ws/install/rm_serial_driver/lib:/root/rm_version4_ws/install/daheng_camera/lib:/root/rm_version4_ws/install/armor_processor/lib:/root/rm_version4_ws/install/armor_detector/lib:/root/daheng_camera/install/daheng_camera/lib:/root/chenjun_ws/install/daheng_camera/lib:/root/chenjun_ws/install/armor_processor/lib:/root/chenjun_ws/install/armor_detector/lib:/root/chenjun_ws/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /root/rm_version4_ws/src/rm_auto_aim/armor_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/rm_version4_ws/install/armor_detector
+[1.755s] Invoking command in '/root/rm_version4_ws/build/armor_detector': CMAKE_PREFIX_PATH=/root/rm_version4_ws/install/auto_aim_interfaces:/root/rm_version4_ws/install/auto_aim_bringup:/root/rm_version4_ws/install/rm_serial_driver:/root/rm_version4_ws/install/rm_gimbal_description:/root/rm_version4_ws/install/daheng_camera:/root/rm_version4_ws/install/armor_processor:/root/rm_version4_ws/install/armor_detector:/root/daheng_camera/install/daheng_camera:/root/chenjun_ws/install/daheng_camera:/root/chenjun_ws/install/auto_aim_bringup:/root/chenjun_ws/install/armor_processor:/root/chenjun_ws/install/armor_detector:/root/chenjun_ws/install/auto_aim_interfaces:/root/test_jun_ws/install/rm_gimbal_description:/opt/ros/humble LD_LIBRARY_PATH=/root/rm_version4_ws/install/auto_aim_interfaces/lib:/root/rm_version4_ws/install/rm_serial_driver/lib:/root/rm_version4_ws/install/daheng_camera/lib:/root/rm_version4_ws/install/armor_processor/lib:/root/rm_version4_ws/install/armor_detector/lib:/root/daheng_camera/install/daheng_camera/lib:/root/chenjun_ws/install/daheng_camera/lib:/root/chenjun_ws/install/armor_processor/lib:/root/chenjun_ws/install/armor_detector/lib:/root/chenjun_ws/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/rm_version4_ws/build/armor_detector -- -j12 -l12
+[1.812s] [ 46%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.812s] [ 46%] [32mBuilding CXX object CMakeFiles/armor_detector_node.dir/rclcpp_components/node_main_armor_detector_node.cpp.o[0m
+[1.812s] [ 46%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector_node.cpp.o[0m
+[1.812s] [ 46%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector.cpp.o[0m
+[1.813s] [ 46%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.813s] [ 46%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o[0m
+[1.813s] [ 46%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o[0m
+[3.150s] [ 53%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.344s] [ 53%] Built target gtest_main
+[6.698s] [ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.779s] [ 60%] Built target gtest
+[8.251s] [ 66%] [32m[1mLinking CXX executable armor_detector_node[0m
+[8.610s] [ 66%] Built target armor_detector_node
+[25.306s] [ 73%] [32m[1mLinking CXX shared library libarmor_detector.so[0m
+[26.321s] [ 73%] Built target armor_detector
+[26.338s] [ 86%] [32mBuilding CXX object CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o[0m
+[26.339s] [ 86%] [32mBuilding CXX object CMakeFiles/test_number_cls.dir/test/test_number_cls.cpp.o[0m
+[28.527s] [ 93%] [32m[1mLinking CXX executable test_number_cls[0m
+[29.704s] [ 93%] Built target test_number_cls
+[32.449s] [100%] [32m[1mLinking CXX executable test_node_startup[0m
+[33.418s] [100%] Built target test_node_startup
+[33.432s] Invoked command in '/root/rm_version4_ws/build/armor_detector' returned '0': CMAKE_PREFIX_PATH=/root/rm_version4_ws/install/auto_aim_interfaces:/root/rm_version4_ws/install/auto_aim_bringup:/root/rm_version4_ws/install/rm_serial_driver:/root/rm_version4_ws/install/rm_gimbal_description:/root/rm_version4_ws/install/daheng_camera:/root/rm_version4_ws/install/armor_processor:/root/rm_version4_ws/install/armor_detector:/root/daheng_camera/install/daheng_camera:/root/chenjun_ws/install/daheng_camera:/root/chenjun_ws/install/auto_aim_bringup:/root/chenjun_ws/install/armor_processor:/root/chenjun_ws/install/armor_detector:/root/chenjun_ws/install/auto_aim_interfaces:/root/test_jun_ws/install/rm_gimbal_description:/opt/ros/humble LD_LIBRARY_PATH=/root/rm_version4_ws/install/auto_aim_interfaces/lib:/root/rm_version4_ws/install/rm_serial_driver/lib:/root/rm_version4_ws/install/daheng_camera/lib:/root/rm_version4_ws/install/armor_processor/lib:/root/rm_version4_ws/install/armor_detector/lib:/root/daheng_camera/install/daheng_camera/lib:/root/chenjun_ws/install/daheng_camera/lib:/root/chenjun_ws/install/armor_processor/lib:/root/chenjun_ws/install/armor_detector/lib:/root/chenjun_ws/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/rm_version4_ws/build/armor_detector -- -j12 -l12
+[33.473s] Invoking command in '/root/rm_version4_ws/build/armor_detector': CMAKE_PREFIX_PATH=/root/rm_version4_ws/install/auto_aim_interfaces:/root/rm_version4_ws/install/auto_aim_bringup:/root/rm_version4_ws/install/rm_serial_driver:/root/rm_version4_ws/install/rm_gimbal_description:/root/rm_version4_ws/install/daheng_camera:/root/rm_version4_ws/install/armor_processor:/root/rm_version4_ws/install/armor_detector:/root/daheng_camera/install/daheng_camera:/root/chenjun_ws/install/daheng_camera:/root/chenjun_ws/install/auto_aim_bringup:/root/chenjun_ws/install/armor_processor:/root/chenjun_ws/install/armor_detector:/root/chenjun_ws/install/auto_aim_interfaces:/root/test_jun_ws/install/rm_gimbal_description:/opt/ros/humble LD_LIBRARY_PATH=/root/rm_version4_ws/install/auto_aim_interfaces/lib:/root/rm_version4_ws/install/rm_serial_driver/lib:/root/rm_version4_ws/install/daheng_camera/lib:/root/rm_version4_ws/install/armor_processor/lib:/root/rm_version4_ws/install/armor_detector/lib:/root/daheng_camera/install/daheng_camera/lib:/root/chenjun_ws/install/daheng_camera/lib:/root/chenjun_ws/install/armor_processor/lib:/root/chenjun_ws/install/armor_detector/lib:/root/chenjun_ws/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/rm_version4_ws/build/armor_detector
+[33.481s] -- Install configuration: ""
+[33.481s] -- Execute custom install script
+[33.482s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/lib/armor_detector/armor_detector_node
+[33.493s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/include/armor_detector/armor.hpp
+[33.501s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/include/armor_detector/detector.hpp
+[33.511s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/include/armor_detector/detector_node.hpp
+[33.521s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/include/armor_detector/number_classifier.hpp
+[33.527s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/include/armor_detector/pnp_solver.hpp
+[33.533s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/environment/library_path.sh
+[33.538s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/environment/library_path.dsv
+[33.549s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/lib/libarmor_detector.so
+[33.559s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/model/fc.onnx
+[33.566s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/model/label.txt
+[33.572s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/ament_index/resource_index/package_run_dependencies/armor_detector
+[33.584s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/ament_index/resource_index/parent_prefix_path/armor_detector
+[33.591s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/environment/ament_prefix_path.sh
+[33.599s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/environment/ament_prefix_path.dsv
+[33.606s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/environment/path.sh
+[33.613s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/environment/path.dsv
+[33.623s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/local_setup.bash
+[33.632s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/local_setup.sh
+[33.644s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/local_setup.zsh
+[33.655s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/local_setup.dsv
+[33.664s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/package.dsv
+[33.672s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/ament_index/resource_index/packages/armor_detector
+[33.680s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/ament_index/resource_index/rclcpp_components/armor_detector
+[33.690s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.698s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.705s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[33.712s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig.cmake
+[33.719s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig-version.cmake
+[33.725s] -- Symlinking: /root/rm_version4_ws/install/armor_detector/share/armor_detector/package.xml
+[33.734s] Invoked command in '/root/rm_version4_ws/build/armor_detector' returned '0': CMAKE_PREFIX_PATH=/root/rm_version4_ws/install/auto_aim_interfaces:/root/rm_version4_ws/install/auto_aim_bringup:/root/rm_version4_ws/install/rm_serial_driver:/root/rm_version4_ws/install/rm_gimbal_description:/root/rm_version4_ws/install/daheng_camera:/root/rm_version4_ws/install/armor_processor:/root/rm_version4_ws/install/armor_detector:/root/daheng_camera/install/daheng_camera:/root/chenjun_ws/install/daheng_camera:/root/chenjun_ws/install/auto_aim_bringup:/root/chenjun_ws/install/armor_processor:/root/chenjun_ws/install/armor_detector:/root/chenjun_ws/install/auto_aim_interfaces:/root/test_jun_ws/install/rm_gimbal_description:/opt/ros/humble LD_LIBRARY_PATH=/root/rm_version4_ws/install/auto_aim_interfaces/lib:/root/rm_version4_ws/install/rm_serial_driver/lib:/root/rm_version4_ws/install/daheng_camera/lib:/root/rm_version4_ws/install/armor_processor/lib:/root/rm_version4_ws/install/armor_detector/lib:/root/daheng_camera/install/daheng_camera/lib:/root/chenjun_ws/install/daheng_camera/lib:/root/chenjun_ws/install/armor_processor/lib:/root/chenjun_ws/install/armor_detector/lib:/root/chenjun_ws/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/rm_version4_ws/build/armor_detector

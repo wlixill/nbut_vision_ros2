@@ -1,0 +1,6 @@
+Invoking command in '/root/rm_version4_ws/build/daheng_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/rm_version4_ws/src/rm_auto_aim/daheng_camera -DCMAKE_INSTALL_PREFIX=/root/rm_version4_ws/install/daheng_camera
+Invoked command in '/root/rm_version4_ws/build/daheng_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/rm_version4_ws/src/rm_auto_aim/daheng_camera -DCMAKE_INSTALL_PREFIX=/root/rm_version4_ws/install/daheng_camera
+Invoking command in '/root/rm_version4_ws/build/daheng_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rm_version4_ws/build/daheng_camera -- -j12 -l12
+Invoked command in '/root/rm_version4_ws/build/daheng_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rm_version4_ws/build/daheng_camera -- -j12 -l12
+Invoking command in '/root/rm_version4_ws/build/daheng_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rm_version4_ws/build/daheng_camera
+Invoked command in '/root/rm_version4_ws/build/daheng_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rm_version4_ws/build/daheng_camera
