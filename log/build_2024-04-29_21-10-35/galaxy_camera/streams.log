@@ -1,0 +1,87 @@
+[0.008s] Invoking command in '/home/wlixill/rm_tools/build/galaxy_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/wlixill/rm_tools/src/rm_vision_ros2_galaxy_camera -DCMAKE_INSTALL_PREFIX=/home/wlixill/rm_tools/install/galaxy_camera
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.101s] -- The CXX compiler identification is GNU 11.4.0
+[0.106s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.170s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.172s] -- Detecting CXX compiler ABI info
+[0.262s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.267s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.269s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.380s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.521s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.525s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.531s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.541s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.607s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.608s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.694s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.716s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.755s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.762s] -- Looking for pthread.h
+[0.822s] -- Looking for pthread.h - found
+[0.822s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.947s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.948s] -- Found Threads: TRUE  
+[1.269s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.288s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.288s] -- Configured cppcheck include dirs: /home/wlixill/rm_tools/src/rm_vision_ros2_galaxy_camera/GalaxySDK/include
+[1.288s] -- Configured cppcheck exclude dirs and/or files: 
+[1.289s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.290s] -- Added test 'lint_cmake' to check CMake code style
+[1.290s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.291s] -- Added test 'xmllint' to check XML markup files
+[1.293s] -- Configuring done
+[1.305s] -- Generating done
+[1.306s] -- Build files have been written to: /home/wlixill/rm_tools/build/galaxy_camera
+[1.314s] Invoked command in '/home/wlixill/rm_tools/build/galaxy_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/wlixill/rm_tools/src/rm_vision_ros2_galaxy_camera -DCMAKE_INSTALL_PREFIX=/home/wlixill/rm_tools/install/galaxy_camera
+[1.316s] Invoking command in '/home/wlixill/rm_tools/build/galaxy_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wlixill/rm_tools/build/galaxy_camera -- -j16 -l16
+[1.359s] [ 50%] [32mBuilding CXX object CMakeFiles/galaxy_camera_node.dir/rclcpp_components/node_main_galaxy_camera_node.cpp.o[0m
+[1.359s] [ 50%] [32mBuilding CXX object CMakeFiles/galaxy_camera.dir/src/galaxy_camera_node.cpp.o[0m
+[3.663s] [ 75%] [32m[1mLinking CXX executable galaxy_camera_node[0m
+[3.765s] [ 75%] Built target galaxy_camera_node
+[4.049s] [100%] [32m[1mLinking CXX shared library libgalaxy_camera.so[0m
+[4.187s] [100%] Built target galaxy_camera
+[4.197s] Invoked command in '/home/wlixill/rm_tools/build/galaxy_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wlixill/rm_tools/build/galaxy_camera -- -j16 -l16
+[4.231s] Invoking command in '/home/wlixill/rm_tools/build/galaxy_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wlixill/rm_tools/build/galaxy_camera
+[4.238s] -- Install configuration: ""
+[4.238s] -- Up-to-date: /home/wlixill/rm_tools/install/galaxy_camera/lib
+[4.238s] -- Up-to-date: /home/wlixill/rm_tools/install/galaxy_camera/lib/bc4b08373788f18282ff1e747a98dd6c21a8b629.cache
+[4.238s] -- Up-to-date: /home/wlixill/rm_tools/install/galaxy_camera/lib/GxGVTL.cti
+[4.238s] -- Up-to-date: /home/wlixill/rm_tools/install/galaxy_camera/lib/GxU3VTL.cti
+[4.238s] -- Up-to-date: /home/wlixill/rm_tools/install/galaxy_camera/lib/libgxiapi.so
+[4.238s] -- Installing: /home/wlixill/rm_tools/install/galaxy_camera/lib/galaxy_camera/galaxy_camera_node
+[4.239s] -- Set runtime path of "/home/wlixill/rm_tools/install/galaxy_camera/lib/galaxy_camera/galaxy_camera_node" to ""
+[4.239s] -- Up-to-date: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/environment/library_path.sh
+[4.239s] -- Installing: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/environment/library_path.dsv
+[4.239s] -- Installing: /home/wlixill/rm_tools/install/galaxy_camera/lib/libgalaxy_camera.so
+[4.240s] -- Set runtime path of "/home/wlixill/rm_tools/install/galaxy_camera/lib/libgalaxy_camera.so" to ""
+[4.240s] -- Up-to-date: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/config
+[4.240s] -- Up-to-date: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/config/camera_params.yaml
+[4.241s] -- Up-to-date: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/config/camera_info.yaml
+[4.241s] -- Up-to-date: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/launch
+[4.241s] -- Up-to-date: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/launch/galaxy_camera.launch.py
+[4.241s] -- Installing: /home/wlixill/rm_tools/install/galaxy_camera/share/ament_index/resource_index/package_run_dependencies/galaxy_camera
+[4.241s] -- Installing: /home/wlixill/rm_tools/install/galaxy_camera/share/ament_index/resource_index/parent_prefix_path/galaxy_camera
+[4.241s] -- Up-to-date: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/environment/ament_prefix_path.sh
+[4.241s] -- Installing: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/environment/ament_prefix_path.dsv
+[4.241s] -- Up-to-date: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/environment/path.sh
+[4.241s] -- Installing: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/environment/path.dsv
+[4.241s] -- Installing: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/local_setup.bash
+[4.241s] -- Installing: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/local_setup.sh
+[4.242s] -- Installing: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/local_setup.zsh
+[4.242s] -- Installing: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/local_setup.dsv
+[4.242s] -- Installing: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/package.dsv
+[4.242s] -- Installing: /home/wlixill/rm_tools/install/galaxy_camera/share/ament_index/resource_index/packages/galaxy_camera
+[4.242s] -- Installing: /home/wlixill/rm_tools/install/galaxy_camera/share/ament_index/resource_index/rclcpp_components/galaxy_camera
+[4.242s] -- Installing: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.243s] -- Installing: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[4.243s] -- Installing: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/cmake/galaxy_cameraConfig.cmake
+[4.243s] -- Installing: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/cmake/galaxy_cameraConfig-version.cmake
+[4.243s] -- Up-to-date: /home/wlixill/rm_tools/install/galaxy_camera/share/galaxy_camera/package.xml
+[4.245s] Invoked command in '/home/wlixill/rm_tools/build/galaxy_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wlixill/rm_tools/build/galaxy_camera

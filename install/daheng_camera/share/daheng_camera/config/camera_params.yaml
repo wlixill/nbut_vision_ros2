@@ -1,7 +1,0 @@
-/daheng_camera:
-  ros__parameters:
-    camera_name: daheng1
-    using_video0: false
-
-    exposure_time: 1500
-    gain: 10.0

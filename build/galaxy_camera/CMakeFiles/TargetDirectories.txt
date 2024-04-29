@@ -1,0 +1,11 @@
+/home/wlixill/rm_tools/build/galaxy_camera/CMakeFiles/uninstall.dir
+/home/wlixill/rm_tools/build/galaxy_camera/CMakeFiles/galaxy_camera_uninstall.dir
+/home/wlixill/rm_tools/build/galaxy_camera/CMakeFiles/galaxy_camera.dir
+/home/wlixill/rm_tools/build/galaxy_camera/CMakeFiles/galaxy_camera_node.dir
+/home/wlixill/rm_tools/build/galaxy_camera/CMakeFiles/test.dir
+/home/wlixill/rm_tools/build/galaxy_camera/CMakeFiles/edit_cache.dir
+/home/wlixill/rm_tools/build/galaxy_camera/CMakeFiles/rebuild_cache.dir
+/home/wlixill/rm_tools/build/galaxy_camera/CMakeFiles/list_install_components.dir
+/home/wlixill/rm_tools/build/galaxy_camera/CMakeFiles/install.dir
+/home/wlixill/rm_tools/build/galaxy_camera/CMakeFiles/install/local.dir
+/home/wlixill/rm_tools/build/galaxy_camera/CMakeFiles/install/strip.dir
