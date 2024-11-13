@@ -1,6 +1,0 @@
-[0.012s] Invoking command in '/home/wlixill/rm_version4_ws/build/daheng_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wlixill/rm_version4_ws/build/daheng_camera -- -j16 -l16
-[0.046s] [35m[1mConsolidate compiler generated dependencies of target daheng_camera[0m
-[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/daheng_camera.dir/src/main.cpp.o[0m
-[5.188s] [100%] [32m[1mLinking CXX executable daheng_camera[0m
-[5.290s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.406
-[5.566s] [100%] Built target daheng_camera

@@ -1,2 +1,0 @@
-Invoking command in '/home/wlixill/rm_version4_ws/build/daheng_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wlixill/rm_version4_ws/build/daheng_camera -- -j16 -l16
-Invoked command in '/home/wlixill/rm_version4_ws/build/daheng_camera' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wlixill/rm_version4_ws/build/daheng_camera -- -j16 -l16

@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/armor_processor.dir/build.make:90: CMakeFiles/armor_processor.dir/src/processor_node.cpp.o] 中断
-gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/armor_processor.dir/all] 中断
-gmake: *** [Makefile:146: all] 中断

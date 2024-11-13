@@ -1,7 +1,0 @@
-[0.017s] Invoking command in '/root/rm_version4_ws/build/daheng_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rm_version4_ws/build/daheng_camera -- -j12 -l12
-[0.053s] [35m[1mConsolidate compiler generated dependencies of target daheng_camera[0m
-[0.065s] [ 50%] Built target daheng_camera_node
-[0.073s] [ 75%] [32mBuilding CXX object CMakeFiles/daheng_camera.dir/src/daheng_camera_node.cpp.o[0m
-[0.682s] gmake[2]: *** [CMakeFiles/daheng_camera.dir/build.make:76: CMakeFiles/daheng_camera.dir/src/daheng_camera_node.cpp.o] Interrupt
-[0.682s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/daheng_camera.dir/all] Interrupt
-[0.682s] gmake: *** [Makefile:146: all] Interrupt

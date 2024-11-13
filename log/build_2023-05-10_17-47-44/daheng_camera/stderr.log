@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/daheng_camera.dir/build.make:76: CMakeFiles/daheng_camera.dir/src/daheng_camera_node.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/daheng_camera.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

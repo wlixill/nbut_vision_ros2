@@ -1,5 +1,0 @@
-In file included from [01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/src/daheng_camera_node.cpp:14[m[K:
-[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:[m[K In member function ‘[01m[Kbool GxCamera::openDevice(bool, const char*)[m[K’:
-[01m[K/home/wlixill/rm_version4_ws/src/rm_auto_aim/daheng_camera/include/GxCamera.hpp:281:30:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
-  281 |     stOpenParam.pszContent = [01;35m[K"1"[m[K;  // SN号，根据此打开设备
-      |                              [01;35m[K^~~[m[K

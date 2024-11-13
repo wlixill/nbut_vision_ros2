@@ -1,7 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target daheng_camera_node[0m
-[35m[1mConsolidate compiler generated dependencies of target daheng_camera[0m
-[ 75%] Built target daheng_camera_node
-[ 75%] [32mBuilding CXX object CMakeFiles/daheng_camera.dir/src/daheng_camera_node.cpp.o[0m
-gmake[2]: *** [CMakeFiles/daheng_camera.dir/build.make:76: CMakeFiles/daheng_camera.dir/src/daheng_camera_node.cpp.o] 中断
-gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/daheng_camera.dir/all] 中断
-gmake: *** [Makefile:146: all] 中断

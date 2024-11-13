@@ -1,9 +1,0 @@
-[0.011s] Invoking command in '/home/wlixill/rm_version4_ws/build/armor_processor': CMAKE_PREFIX_PATH=/home/wlixill/rm_version4_ws/install/auto_aim_interfaces:/home/wlixill/rm_version4_ws/install/auto_aim_bringup:/home/wlixill/rm_version4_ws/install/rm_serial_driver:/home/wlixill/rm_version4_ws/install/rm_gimbal_description:/home/wlixill/rm_version4_ws/install/daheng_camera:/home/wlixill/rm_version4_ws/install/armor_processor:/home/wlixill/rm_version4_ws/install/armor_detector:/home/wlixill/rm_tools/install/daheng_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/wlixill/rm_version4_ws/install/auto_aim_interfaces/lib:/home/wlixill/rm_version4_ws/install/rm_serial_driver/lib:/home/wlixill/rm_version4_ws/install/daheng_camera/lib:/home/wlixill/rm_version4_ws/install/armor_processor/lib:/home/wlixill/rm_version4_ws/install/armor_detector/lib:/home/wlixill/rm_tools/install/daheng_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/wlixill/rm_version4_ws/build/armor_processor -- -j16 -l16
-[0.058s] [ 16%] [32mBuilding CXX object CMakeFiles/armor_processor.dir/src/extended_kalman_filter.cpp.o[0m
-[0.058s] [ 33%] [32mBuilding CXX object CMakeFiles/armor_processor_node.dir/rclcpp_components/node_main_armor_processor_node.cpp.o[0m
-[0.059s] [ 50%] [32mBuilding CXX object CMakeFiles/armor_processor.dir/src/tracker.cpp.o[0m
-[0.060s] [ 66%] [32mBuilding CXX object CMakeFiles/armor_processor.dir/src/processor_node.cpp.o[0m
-[3.546s] [ 83%] [32m[1mLinking CXX executable armor_processor_node[0m
-[3.660s] [ 83%] Built target armor_processor_node
-[8.988s] [100%] [32m[1mLinking CXX shared library libarmor_processor.so[0m
-[9.469s] [100%] Built target armor_processor

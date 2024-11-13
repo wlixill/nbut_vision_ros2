@@ -1,1 +1,0 @@
-/root/rm_version4_ws/src/rm_auto_aim/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp
